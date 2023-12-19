@@ -16,11 +16,13 @@ End the program
 
 ## Program:
 ```
+#Program to find the eigen values and eigen vectors.
+#Developed by: MOHAMED AAKIF ASRAR S
+#RegisterNumber: 23003613
 import numpy as np
 a = np.array([[-2,2,-3],[2,1,-6],[-1,-2,0]])
 values,vectors = np.linalg.eig(a)
 print("Eigen values are {} and Eigen Vectors are {}".format(values,vectors))
-
 ```
 
 ## Output:
